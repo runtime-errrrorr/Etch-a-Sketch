@@ -1,11 +1,14 @@
+.header,
 footer{
-    background-color:darkgrey;
-    height: 50px;
-    /* align-self: flex-end; */
+    background-color:#0F2C59;
+    height: 40px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: Georgia, Times, serif;
+
 }
 
 body{
@@ -14,8 +17,25 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color:#D4E7C5;
 }
 
 .content{
     flex-grow: 1;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    font-size: large;
+    font-weight: bolder;
+    /* background-color: #00ABE4; */
+    border-bottom: 2px solid white;
+}
+
+.interface{
+    padding-left: 20px;
 }
